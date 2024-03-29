@@ -1,0 +1,180 @@
+.pageContainer {
+  height: 100vh;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainCentent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+}
+
+.inputFieldWrapper {
+  border: 0.0625rem solid rgb(102, 90, 102);
+  width: fit-content;
+  border-radius: 0.3rem;
+}
+
+.inputField {
+  padding: 0.75rem;
+  padding-left: 0.5rem;
+  width: 17.5rem;
+  border: none;
+  font-size: medium;
+  border-radius: 0.3rem;
+}
+
+.timerField {
+  padding: 0.75rem;
+  padding-left: 0.5rem;
+  padding-right: 0px;
+  font-size: medium;
+  border-radius: 0.3rem;
+  border: 0.0625rem solid rgb(102, 90, 102);
+  width: 7rem;
+  margin-left: 10px;
+}
+
+.chancesField {
+  padding: 0.75rem;
+  padding-left: 0.5rem;
+  padding-right: 0px;
+  font-size: medium;
+  border-radius: 0.3rem;
+  border: 0.0625rem solid rgb(102, 90, 102);
+  width: 5rem;
+  margin-left: 10px;
+}
+
+.inputField:focus {
+  border: none;
+  outline: none;
+}
+
+.showBtn {
+  height: 2.8215rem;
+  width: 2.8215rem;
+  background-color: #b9b9b954;
+  border: none;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showBtn:hover {
+  background-color: #83838354;
+}
+
+.showBtn:active {
+  background-color: #43434354;
+}
+
+.letterBox {
+  height: 4.375rem;
+  width: 3.125rem;
+  border: 0.0625rem solid rgb(96, 76, 96);
+  margin: 0.3125rem;
+  border-radius: 0.3rem;
+}
+
+.letterContainer {
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.letterBoxContainer {
+  flex-direction: column;
+}
+
+.blank {
+  border: none;
+}
+
+.keyboardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+}
+
+.button {
+  height: 3.125rem;
+  width: 3.125rem;
+  margin: 0.3125rem;
+  cursor: pointer;
+  border-radius: 0.625rem;
+  border: none;
+}
+
+/* CSS */
+.startGame {
+  background-image: linear-gradient(#42a1ec, #0070c9);
+  border: 0.0625rem solid #0077cc;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  line-height: 1.47059;
+  min-width: 1.875rem;
+  overflow: visible;
+  padding: 0.25rem 0.9375rem;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin-left: 0.625rem;
+}
+
+.startGame:disabled {
+  cursor: default;
+  opacity: 0.3;
+}
+
+.startGame:hover {
+  background-image: linear-gradient(#51a9ee, #147bcd);
+  border-color: #1482d0;
+  text-decoration: none;
+}
+
+.startGame:active {
+  background-image: linear-gradient(#3d94d9, #0067b9);
+  border-color: #006dbc;
+  outline: none;
+}
+
+.startGame:focus {
+  box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 0.1875rem;
+  outline: none;
+}
+
+.actionBtn {
+  position: absolute;
+  top: 0.3125rem;
+  right: 0.3125rem;
+}
+
+.timerComponent {
+  position: absolute;
+  top: 0.3125rem;
+  left: 0.3125rem;
+  flex-direction: column;
+}
+
+.timerText {
+  margin: 0;
+}
